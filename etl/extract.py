@@ -11,6 +11,8 @@ def extract(csv_path):
         pd.DataFrame: dati estratti.
     """
     try:
+        print('ciaoo')
+        print('daje')
         df = pd.read_csv(csv_path)
         print(f"[extract] Dataset caricato con successo: {df.shape[0]} righe, {df.shape[1]} colonne.")
         return df
